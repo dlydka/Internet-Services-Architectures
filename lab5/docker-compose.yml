@@ -1,0 +1,17 @@
+version: '3'
+services:
+  spring-app:
+    build: ./lab2_final
+    ports:
+      - "8080:8080"
+  node-app:
+    build: ./simple-rpg-javascript
+    ports:
+      - "8083:8083"
+  reverse-proxy:
+    build: ./
+    ports:
+      - "80:80"
+    depends_on:
+      - spring-app
+      - node-app

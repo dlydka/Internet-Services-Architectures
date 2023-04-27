@@ -1,0 +1,24 @@
+{
+  "mages": [
+    {
+      "id": 1,
+      "name": "Calvian"
+    },
+    {
+      "id": 2,
+      "name": "Uhlbrecht"
+    },
+    {
+      "id": 3,
+      "name": "Eloise"
+    },
+    {
+      "id": 4,
+      "name": "Zereni"
+    },
+    {
+      "id": 5,
+      "name": "Sigrid"
+    }
+  ]
+}

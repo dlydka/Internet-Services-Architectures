@@ -1,0 +1,85 @@
+GET http://localhost:8080/api/mages
+
+###
+
+GET http://localhost:8080/api/mages/1
+
+###
+
+GET http://localhost:8080/api/mages/5
+
+###
+
+GET http://localhost:8080/api/towers
+
+###
+
+GET http://localhost:8080/api/towers/Tower1/mages
+
+###
+
+GET http://localhost:8080/api/towers/Tower3
+
+###
+
+GET http://localhost:8080/api/towers/Tower123/mages
+
+###
+
+GET http://localhost:8080/api/towers/Tower3/mages
+
+###
+
+GET http://localhost:8080/api/towers/Tower2/mages/1
+
+###
+
+GET http://localhost:8080/api/towers/Tower4/mages/5
+
+###
+
+POST http://localhost:8080/api/towers
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+###
+
+POST http://localhost:8080/api/towers/Tower123/mages
+Content-Type: application/json
+
+{
+  "name": "Sigrid123",
+  "age": 18,
+  "level": 12
+}
+
+###
+
+DELETE http://localhost:8080/api/towers/Tower3/mages/3
+
+###
+
+PUT http://localhost:8080/api/towers/Tower3/mages/4
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 19,
+  "level": 11
+}
+
+###
+
+PUT http://localhost:8080/api/towers/Tower3
+Content-Type: application/json
+
+{
+  "name": "Tower3",
+  "colour": "red",
+  "height": 1.55
+}

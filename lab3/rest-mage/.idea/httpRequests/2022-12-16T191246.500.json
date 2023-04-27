@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-12-16T18:12:46.790+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "",
+  "path": "/api/towers/Tower2/mages/3"
+}

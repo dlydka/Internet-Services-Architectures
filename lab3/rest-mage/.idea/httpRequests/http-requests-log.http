@@ -1,0 +1,380 @@
+GET http://localhost:8082/api/towers/Tower3/mages/4
+
+<> 2022-12-16T191726.200.json
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages/4
+
+<> 2022-12-16T191724.200.json
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages
+
+<> 2022-12-16T191713.200.json
+
+###
+
+PUT http://localhost:8082/api/towers/Tower3/mages/4
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+}
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages
+
+<> 2022-12-16T191452.200.json
+
+###
+
+DELETE http://localhost:8082/api/towers/Tower3/mages/3
+
+###
+
+DELETE http://localhost:8082/api/towers/Tower2/mages/3
+
+###
+
+DELETE http://localhost:8082/api/towers/Tower2/mages/3
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages
+
+<> 2022-12-16T191430.200.json
+
+###
+
+DELETE http://localhost:8082/api/towers/Tower2/mages/3
+
+<> 2022-12-16T191350.500.json
+
+###
+
+DELETE http://localhost:8082/api/towers/Tower2/mages/3
+
+<> 2022-12-16T191348.500.json
+
+###
+
+DELETE http://localhost:8082/api/towers/Tower2/mages/3
+
+<> 2022-12-16T191248.500.json
+
+###
+
+DELETE http://localhost:8082/api/towers/Tower2/mages/3
+
+<> 2022-12-16T191246.500.json
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages
+
+<> 2022-12-16T191235.200.json
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages
+
+<> 2022-12-16T191233.200.json
+
+###
+
+GET http://localhost:8082/api/towers/Tower2/mages/1
+
+<> 2022-12-16T190330.200.json
+
+###
+
+GET http://localhost:8082/api/towers/Tower2/mages/1
+
+<> 2022-12-16T190329.200.json
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages/1
+
+###
+
+GET http://localhost:8080/api/towers/Tower1/mages
+
+<> 2022-11-22T150608.200.json
+
+###
+
+GET http://localhost:8080/api/towers/Tower1/mages
+
+<> 2022-11-22T150605.200.json
+
+###
+
+POST http://localhost:8080/api/towers/Tower1/mages
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+}
+
+###
+
+POST http://localhost:8080/api/towers
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+###
+
+GET http://localhost:8080/api/mages
+
+<> 2022-11-22T150528.200.json
+
+###
+
+POST http://localhost:8080/api/mages
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+
+}
+
+###
+
+GET http://localhost:8080/api/mages
+
+<> 2022-11-22T150514.200.json
+
+###
+
+GET http://localhost:8080/api/towers/Tower1/mages
+
+<> 2022-11-22T133230.200.json
+
+###
+
+POST http://localhost:8080/api/towers/Tower1/mages
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+}
+
+###
+
+GET http://localhost:8080/api/towers/Tower123
+
+<> 2022-11-21T194433.200.json
+
+###
+
+GET http://localhost:8080/api/towers/Tower123
+
+<> 2022-11-21T194431.200.json
+
+###
+
+GET http://localhost:8080/api/towers
+
+<> 2022-11-21T194425.200.json
+
+###
+
+PUT http://localhost:8080/api/towers/Tower123
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "red",
+  "height": "6.6"
+}
+
+###
+
+PUT http://localhost:8080/api/towers/Tower123
+Content-Type: application/json
+
+{
+  "name": "Tower321",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+<> 2022-11-21T194151.500.json
+
+###
+
+POST http://localhost:8080/api/towers
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+###
+
+PUT http://localhost:8080/api/towers/Tower1
+Content-Type: application/json
+
+{
+  "name": "Tower321",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+<> 2022-11-21T193850.500.json
+
+###
+
+GET http://localhost:8080/api/towers
+
+<> 2022-11-21T193827.200.json
+
+###
+
+POST http://localhost:8080/api/towers
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+###
+
+GET http://localhost:8080/api/towers
+
+<> 2022-11-21T193444.200.json
+
+###
+
+GET http://localhost:8080/api/towers
+
+<> 2022-11-21T193443.200.json
+
+###
+
+PUT http://localhost:8080/api/towers/Tower123
+Content-Type: application/json
+
+{
+  "name": "Tower321",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+<> 2022-11-21T193351.500.json
+
+###
+
+PUT http://localhost:8080/api/towers/Tower123
+Content-Type: application/json
+
+{
+  "name": "Tower321",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+<> 2022-11-21T193349.500.json
+
+###
+
+GET http://localhost:8080/api/towers/Tower123
+
+<> 2022-11-21T193335.200.json
+
+###
+
+GET http://localhost:8080/api/towers/Tower123
+
+<> 2022-11-21T193334.200.json
+
+###
+
+GET http://localhost:8080/api/towers
+
+<> 2022-11-21T193326.200.json
+
+###
+
+PUT http://localhost:8080/api/towers/Tower123
+Content-Type: application/json
+
+{
+  "name": "Tower321",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+<> 2022-11-21T193316.500.json
+
+###
+
+GET http://localhost:8080/api/towers
+
+<> 2022-11-21T193313.200.json
+
+###
+
+GET http://localhost:8080/api/towers
+
+<> 2022-11-21T193310.200.json
+
+###
+
+GET http://localhost:8080/api/towers/Tower1
+
+<> 2022-11-21T193306.200.json
+
+###
+
+POST http://localhost:8080/api/towers
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+###
+
+GET http://localhost:8080/api/towers
+
+<> 2022-11-21T193300.200.json
+
+###
+
+PUT http://localhost:8080/api/towers/Tower123
+Content-Type: application/json
+
+{
+  "name": "Tower321",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+<> 2022-11-21T153914.405.json
+
+###
+

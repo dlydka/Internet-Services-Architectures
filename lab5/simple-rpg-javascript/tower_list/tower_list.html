@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Simple RPG web application"/>
+        <meta name="keywords" content="RPG"/>
+        <title>Simple RPG</title>
+        <link rel="stylesheet" href="../styles.css"/>
+        <script src="../script.js" defer="defer"></script>
+        <script type="module" src="tower_list.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Simple RPG</h1>
+            </header>
+
+            <nav class="navigation-bar">
+                <ul>
+                    <li><a href="../index.html">main</a></li>
+                    <li><a href="tower_list.html">towers</a></li>
+                </ul>
+            </nav>
+
+            <section class="main-section">
+                <article class="text--justified">
+                    <header><h2>Users</h2></header>
+                    <button><a href="../tower_add/tower_add.html">add tower</a></button>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>name</th>
+                                <th>edit</th>
+                                <th>view</th>
+                                <th>add mage</th>
+                                <th>delete</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <tr>
+                                <td>name</td>
+                                <td><a href="#">edit</a></td>
+                                <td><a href="#">view</a></td>
+                                <td><a href="#">add mage</a></td>
+                                <td>
+                                    <button class="ui-button ui-control">delete</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+
+            <footer class="footer">
+                <p>Copyright &copy; 2022, Dawid Łydka</p>
+            </footer>
+        </div>
+    </body>
+</html>

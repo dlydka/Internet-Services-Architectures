@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Simple RPG web application"/>
+        <meta name="keywords" content="RPG"/>
+        <title>Simple RPG</title>
+        <link rel="stylesheet" href="../styles.css"/>
+        <link rel="stylesheet" href="mage_edit.css"/>
+        <script src="../script.js" defer="defer"></script>
+        <script type="module" src="mage_edit.js" defer="defer"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Simple RPG</h1>
+            </header>
+
+            <nav class="navigation-bar">
+                <ul>
+                    <li><a href="../index.html">main</a></li>
+                    <li><a href="../tower_list/tower_list.html">users</a></li>
+                </ul>
+            </nav>
+
+            <section class="main-section">
+                <article class="text--justified">
+                    <header><h2>Edit mage info</h2></header>
+                    <form class="character__form" id="infoForm">
+                        <label for="name">Name:</label>
+                        <input class="ui-control ui-input" id="name" name="name"/>
+                        
+                        <label for="age">Age:</label>
+                        <input class="ui-control ui-input" id="age" name="age" type="number"/>
+                       
+                        <label for="level">Level:</label>
+                        <input class="ui-control ui-input" id="level" name="level" type="number"/>
+                        
+                        <input class="ui-control ui-button" type="submit" name="Update"/>
+                    </form>
+                </article>
+
+                <p id="demo"></p>
+            </section>
+
+            <footer class="footer">
+                <p>Copyright &copy; 2022, Dawid Łydka</p>
+            </footer>
+        </div>
+    </body>
+</html>

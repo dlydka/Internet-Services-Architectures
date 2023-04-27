@@ -1,0 +1,7 @@
+{
+  "timestamp": "2022-11-21T18:33:49.399+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "",
+  "path": "/api/towers/Tower123"
+}

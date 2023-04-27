@@ -1,0 +1,114 @@
+GET http://localhost:8080/api/mages
+
+###
+
+GET http://localhost:8080/api/mages
+Accept: application/xml
+
+###
+
+GET http://localhost:8080/api/mages/1
+
+###
+
+GET http://localhost:8080/api/mages/5
+
+###
+
+POST http://localhost:8080/api/mages
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+
+}
+
+###
+
+PUT http://localhost:8080/api/mages/5
+Content-Type: application/json
+
+{
+  "name": "Sir Sigrid",
+  "age": 30
+
+}
+
+###
+
+DELETE http://localhost:8080/api/mages/5
+
+###
+
+GET http://localhost:8080/api/towers/Tower1/mages
+
+###
+
+GET http://localhost:8080/api/towers/Tower3/mages
+
+###
+
+GET http://localhost:8080/api/towers/Tower2/mages/1
+
+###
+
+GET http://localhost:8080/api/towers/Tower3/mages/1
+
+###
+
+GET http://localhost:8080/api/towers/damien/mages
+
+###
+
+POST http://localhost:8080/api/towers/Tower1/mages
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+}
+
+###
+
+DELETE http://localhost:8080/api/towers/Tower2
+
+###
+
+GET http://localhost:8080/api/towers
+
+###
+
+GET http://localhost:8080/api/towers/Tower123
+
+###
+
+DELETE http://localhost:8080/api/towers/Tower2
+
+###
+
+POST http://localhost:8080/api/towers
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+###
+
+PUT http://localhost:8080/api/towers/Tower123
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "red",
+  "height": "6.6"
+}
+
+###
+
+DELETE http://localhost:8080/api/towers/Tower2/mages/2

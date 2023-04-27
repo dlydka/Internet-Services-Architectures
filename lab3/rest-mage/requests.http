@@ -1,0 +1,88 @@
+GET http://localhost:8082/api/mages
+
+###
+
+GET http://localhost:8082/api/mages
+Accept: application/xml
+
+###
+
+GET http://localhost:8082/api/mages/1
+
+###
+
+GET http://localhost:8082/api/mages/5
+
+###
+
+POST http://localhost:8082/api/mages
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+
+}
+
+###
+
+PUT http://localhost:8082/api/mages/5
+Content-Type: application/json
+
+{
+  "name": "Sir Sigrid",
+  "age": 30
+
+}
+
+###
+
+DELETE http://localhost:8082/api/mages/5
+
+###
+
+GET http://localhost:8082/api/towers/Tower1/mages
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages
+
+###
+
+GET http://localhost:8082/api/towers/Tower2/mages/1
+
+###
+
+GET http://localhost:8082/api/towers/Tower3/mages/4
+
+###
+
+GET http://localhost:8082/api/towers/damien/mages
+
+###
+
+POST http://localhost:8082/api/towers/Tower1/mages
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+}
+
+###
+
+DELETE http://localhost:8082/api/towers/Tower3/mages/3
+
+###
+
+PUT http://localhost:8082/api/towers/Tower3/mages/4
+Content-Type: application/json
+
+{
+  "name": "Sigrid",
+  "age": 18,
+  "level": 12
+}
+

@@ -1,0 +1,26 @@
+GET http://localhost:8081/api/towers
+
+###
+
+GET http://localhost:8081/api/towers/Tower1
+
+###
+
+GET http://localhost:8081/api/towers/Tower123
+
+###
+
+DELETE http://localhost:8081/api/towers/Tower1
+
+###
+
+POST http://localhost:8081/api/towers
+Content-Type: application/json
+
+{
+  "name": "Tower123",
+  "colour": "pink",
+  "height": "6.6"
+}
+
+###

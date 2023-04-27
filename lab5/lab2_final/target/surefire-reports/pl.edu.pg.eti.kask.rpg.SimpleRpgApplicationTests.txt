@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: pl.edu.pg.eti.kask.rpg.SimpleRpgApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.187 s - in pl.edu.pg.eti.kask.rpg.SimpleRpgApplicationTests
